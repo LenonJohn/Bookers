@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+
+
+body {
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 18px;
+  margin:33px;
+}
