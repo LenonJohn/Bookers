@@ -1,3 +1,9 @@
+
+     <% flash.each do |name, msg| %>
+          <%= content_tag :p, msg, class: name %>
+     <% end %>
+    
+
 <p><strong>Title:<strong>
 <%= @book.title %></p>
 
@@ -7,5 +13,5 @@
 <tr>
     <td><%= link_to "Edit", edit_book_path(@book.id) %></td>
     <td>|</td>
-    <td><%= link_to "Back", book_path %></td>
+    <td><%= link_to "Back", "/books" %></td>
 </tr>
